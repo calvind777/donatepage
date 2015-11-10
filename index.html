@@ -8,12 +8,13 @@
 	<script>
 $(document).ready(function () {
     $('#done').slideDown(2000);
-    $('#title').fadeIn(3000);
-    $('#button').fadeIn(3000);
-    $('#titletext').fadeIn(3000);
-    $('#explanation').fadeIn(3100);
-    $('#checkouti').fadeIn(3000);
-
+    $('#title').fadeIn(2000);
+    $('#button').fadeIn(2000);
+    $('#titletext').fadeIn(2000);
+    $('#explanation').fadeIn(2000);
+    $('#checkouti').fadeIn(2000);
+    $('#current').fadeIn(2500);
+    $('.unlocks').fadeIn(3000);
 
     
 });
@@ -49,9 +50,16 @@ $(document).ready(function () {
   We employ a "pay what you want" model. All we need is for you to pay for how much you think our services helped you, even just one cent. 
 </div>
 
-<div id="current">
+<div id="current" style="display:none;">
   Current average donation amount:
   <span class="cheaper">$9.79</span>
+</div>
+
+<div class="unlocks" style="display:none;">
+  Donate <span class="cheaper">$10.00</span> to unlock a Skype consultation with your editor.
+</div>
+<div class="unlocks" style="display:none;">
+  Donate <span class="cheaper">$30.00</span> to unlock a Skype consultation with your editor and a second revision.
 </div>
 <div id="button" style="display:none;">
 
